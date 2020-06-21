@@ -13,17 +13,18 @@
 /* BASE RULES */
 /**************/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+// @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
 
-@font-face {
-    font-family: "Alegreya-Regular";
-    src: url("../fonts/Alegreya-Regular.ttf");
-}
+// @font-face {
+//    font-family: "Alegreya-Regular";
+//    src: url("../fonts/Alegreya-Regular.ttf");
+// }
 
-@font-face {
-    font-family: "Alegreya-Medium";
-    src: url("../fonts/Alegreya-Medium.ttf");
-}
+//@font-face {
+//    font-family: "Alegreya-Medium";
+//    src: url("../fonts/Alegreya-Medium.ttf");
+// }
 
 html {
   font-size: 100%;
@@ -35,7 +36,7 @@ html {
 
 body {
   background: #fff;
-  font-family: "Alegreya-Regular";
+  font-family: 'Alegreya', serif;
   color: #404040;
   line-height: 1.7;
   font-weight: 400;
@@ -53,7 +54,7 @@ body {
 //  -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Alegreya-Medium";
+  font-family: 'Alegreya', serif;
   color: $darkerGray;
   font-weight: bold;
 
