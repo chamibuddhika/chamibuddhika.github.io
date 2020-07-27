@@ -3,8 +3,7 @@ layout: post
 title: Optimising Matrix Multiplication Using Top Down Analysis
 toc: true 
 categories: [Performance Engineering, Performance Optimization]
-excerpt: In this article I am going to look in to how we can use Top Down microarchitectural
-analysis method to drive some typical optimizations for matrix multiplication. 
+excerpt: In this article I am going to look in to how we can use Top Down microarchitectural analysis method to drive some typical optimizations for matrix multiplication. 
 ---
 
 ## Introduction
