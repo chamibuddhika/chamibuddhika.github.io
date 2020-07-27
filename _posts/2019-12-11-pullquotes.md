@@ -8,6 +8,23 @@ excerpt: In graphic design, a pull quote (also known as a lift-out pull quote) i
 
 ## Introduction
 
+Matrix multiplication (in general `dgemm` in BLAS) is one of the critical compute 
+kernels operating at the heart of deep learning workloads. Any slight performance 
+enhancement in `dgemm` can potentially lead to an outsized performance improvement 
+in the overall workload runtime due to how frequently it is being used within the
+overall computation of a workload. In this article I am going to look in to how we
+can observe and improve the performance characteristics of a matrix multiplication
+kernel on x86 using Top Down, a performance analysis method based on Intel PMU events. 
+
+## Setup
+
+The hardware is i7, 64GB memory, running Linux xyz with hyperthreading on. 
+The code is compiled with g++ version xyz at -O3 optimization level.
+
+<!--
+
+## Introduction
+
 In graphic design, a pull quote (also known as a lift-out pull quote) is a key phrase, quotation, or excerpt that has been pulled from an article and used as a page layout graphic element, serving to entice readers into the article or to highlight a key topic. {% include pullquote.html quote="It is typically placed in a larger or distinctive typeface and on the same page." %} Pull quotes are often used in magazine and newspaper articles, annual reports, and brochures, as well as on the web. They can add visual interest to text-heavy pages with few images or illustrations.
 
 ### Sub Intro
@@ -19,3 +36,5 @@ Pull quotes need not be a verbatim copy of the text being quoted; depending on a
 ## Body
 
 A disadvantage of pull quotes as a design element is that they can disrupt the reading process of readers invested in reading the text sequentially by drawing attention to ghost fragments out of context. At the other extreme, when pull quotes are used to break up what would otherwise be a formless wall of text, pull quote can serve as visual landmarks to help the reader maintain a sense of sequence and place.
+
+-->
