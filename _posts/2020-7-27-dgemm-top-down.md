@@ -38,7 +38,7 @@ cache misses in the inner-most loop. Only one element of a fetched cache line of
 computation at a time and then potentially tossed off the cache which will be refeteched when computing
 the next row adajcent cell of C (going right). 
 
-![Naive Implementation](2020-7-27-naive.jpg)
+![Naive Implementation](naive.jpg)
 
 We need to optimise the memory access pattern here in order to maximise the amount of computation done
 before relinquishing a fetched cache line from B.
