@@ -92,7 +92,6 @@ body {
 ////////////////////////////////////////
 
 .arrow-right {
-  float: left;
   border-color: var(--color) transparent;
   border-style: solid;
   border-width: var(--size) 0px var(--size) var(--size);
@@ -101,7 +100,6 @@ body {
 }
 
 .arrow-left {
-  float: left;
   border-color: var(--color) transparent;
   border-style: solid;
   border-width: var(--size) var(--size) var(--size) 0px;
@@ -110,9 +108,7 @@ body {
 }
 
 .arrow-down {
-  display: block;
-  margin-top: 5px; 
-  float: left;
+  display: inline-block;
   border-color: var(--color) transparent;
   border-style: solid;
   border-width: var(--size) var(--size) 0px var(--size);
@@ -121,9 +117,7 @@ body {
 }
 
 .arrow-up {
-  display: block;
-  margin-top: 5px; 
-  float: left;
+  display: inline-block;
   border-color: var(--color) transparent;
   border-style: solid;
   border-width: 0px var(--size) var(--size) var(--size);
