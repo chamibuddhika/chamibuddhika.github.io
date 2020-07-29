@@ -110,6 +110,8 @@ body {
 }
 
 .arrow-down {
+  display: block;
+  margin-top: 5px; 
   float: left;
   border-color: var(--color) transparent;
   border-style: solid;
@@ -119,6 +121,8 @@ body {
 }
 
 .arrow-up {
+  display: block;
+  margin-top: 5px; 
   float: left;
   border-color: var(--color) transparent;
   border-style: solid;
