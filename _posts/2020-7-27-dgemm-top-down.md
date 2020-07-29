@@ -38,10 +38,8 @@ Going forward I use this implementation as the base line.
 When run with Top Down enabled, it gives the following output. 
 
 {% include marginnote.html title="Metrics" 
-content="<ul><li> First </li> 
-             <li> Second </li> 
-             <li> Third </li>
-         </ul>" %}
+content="<div class=\"arrow-down\" style=\"--color:#f00; --size:10px;\"><\div> -5%
+         <div class=\"arrow-up\" style=\"--color:green; --size:10px;\"><\div> -5%" %}
 
 Implementation is severely memory bound as evident from XYZ entries. The
 matrices are in row-major order. So every access to matrix B going down the
