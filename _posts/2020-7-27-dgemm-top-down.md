@@ -38,11 +38,10 @@ Going forward I use this implementation as the base line.
 When run with Top Down enabled, it gives the following output. 
 
 {% include marginnote.html title="Metrics" 
-content="- First 
- - Second 
- - Third
-    - Indented Item
-    - Indented Item" %}
+content="<ul><li> First </li> 
+             <li> Second </li> 
+             <li> Third </li>
+         </ul>" %}
 
 Implementation is severely memory bound as evident from XYZ entries. The
 matrices are in row-major order. So every access to matrix B going down the
@@ -67,6 +66,13 @@ incured per floating point operation.
 
 The code now features six nested loops with three inner loops operating at
 block level.
+
+{% include marginnote.html title="Metrics" 
+content="<ul><li> Fifth  </li> 
+             <li> Sixth </li> 
+             <li> Eighth </li>
+         </ul>" %}
+
 
 With this optimization we have reduced the run-time by 3X. Top down output
 confirms that we have reduced the last level cache misses and resultant
