@@ -39,9 +39,9 @@ When run with Top Down enabled, it gives the following output.
 
 {% include marginnote.html title="Metrics" 
 content="<p style=\"margin-left:5px;margin-bottom:0px;\">Time(s): -5% 
-<i class=\"arrow-down\" style=\"--color:red;--size=8px;\"></i></p>
+<i class=\"arrow-down\" style=\"--color:red;--size:8px;\"></i></p>
 <p style=\"margin-left:5px;margin-top:0px;\">CPI: 5% 
-<i class=\"arrow-up\" style=\"--color:green;--size=8px;\"></i></p>"%}
+<i class=\"arrow-up\" style=\"--color:green;--size:8px;\"></i></p>"%}
 
 <!--
 "<div><div class=\"arrow-down\" style=\"--color:#f00; --size:8px;\"></div>Time(s): -5%</div>
