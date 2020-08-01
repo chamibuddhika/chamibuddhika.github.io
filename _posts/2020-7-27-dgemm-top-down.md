@@ -75,7 +75,6 @@ block level.
 {% include marginnote.html title="Metrics" 
 content="<ul><li> Fifth  </li> 
              <li> Sixth </li> 
-             <li> Eighth </li>
          </ul>" %}
 
 
