@@ -8,7 +8,7 @@ excerpt: In this article I am going to look in to how we can use Top Down microa
 
 ## Introduction
 
-Matrix multiplication (in general `dgemm` in BLAS) is one of the most
+Matrix multiplication (in general `gemm` in BLAS) is one of the most
 performance critical compute kernels operating at the heart of many scientific
 computing and deep learning workloads. While highly optimized BLAS
 implementations of this kernel are available, it is still useful to
@@ -21,7 +21,7 @@ the kernel at each stage and drive the optimizations accordingly. I have covered
 Top Down in a previous article which also contains many good references on how
 to get started with it. The idea here is to illustrate how we can use this
 method to drive optimizations, using matrix multiplication as a case study.
-Beating existing highly tuned `dgemm` kernels is a non goal for this article. 
+Beating existing highly tuned `gemm` kernels is a non goal for this article. 
 
 ## Setup
 
