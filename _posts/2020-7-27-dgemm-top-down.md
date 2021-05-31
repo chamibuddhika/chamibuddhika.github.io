@@ -372,6 +372,12 @@ and load and compute pipelining.
 
 ### Multi-Threading 
 
+{% include marginnote.html title="" color="#ff009b"
+content="<p style=\"margin-left:5px;margin-bottom:0px;font-size:large;\">
+ <a href=\"https://github.com/chamibuddhika/blog/blob/a51a79ec054a301786716729c5149684d871544f/dgemm.cc#L531\">[Source]</a> 
+</p>
+"%}
+
 We are almost at the end. So far all the optimizations we did were for improving
 the single threaded performance of a matrix tile/ block multiplication. Using
 multiple threads we can compute several matrix tiles parllelly. For this, we can
@@ -380,7 +386,7 @@ computation) happens in a separate thread. Here, I use OpenMP parallel for
 pragma in order to simply parallelize this loop.
 
 
-![Loop Interchange Hoist SIMD Unroll Parallel Top Down](../images/posts/dgemm-top-down/tile_ichange_hoist_simd_vs_tile_ichange_hoist_simd_unroll.png)
+![Loop Interchange Hoist SIMD Unroll Parallel Top Down](../images/posts/dgemm-top-down/tile_ichange_hoist_simd_unroll_vs_tile_ichange_hoist_simd_unroll_par.png)
 
 {% include marginnote.html title="Metrics" color="#ff009b"
 content="<p style=\"margin-left:5px;margin-bottom:0px;\">Time(s) &nbsp; &nbsp;
